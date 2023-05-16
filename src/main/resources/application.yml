@@ -1,0 +1,14 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /sample
+
+spring:
+  application:
+    name: sample
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: mysql@Devspace!
+    url: jdbc:mysql://10.253.163.195:3306/demo?characterEncoding=utf8&useSSL=false
