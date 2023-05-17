@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vincent.mapper.DemoFieldResourceMapper">
+
+        <!-- 通用查询映射结果 -->
+        <resultMap id="BaseResultMap" type="com.vincent.entity.DemoFieldResource">
+                    <id column="id" property="id" />
+                    <result column="field_id" property="fieldId" />
+                    <result column="field_scope" property="fieldScope" />
+        </resultMap>
+
+        <!-- 通用查询结果列 -->
+        <sql id="Base_Column_List">
+            id, field_id, field_scope
+        </sql>
+
+</mapper>
