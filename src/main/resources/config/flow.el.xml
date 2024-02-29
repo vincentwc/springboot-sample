@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow>
+<!--    spring下非必须-->
+<!--    <nodes>-->
+<!--        <node id="a" class="com.vincent.liteflow.bean.ACmp"/>-->
+<!--        <node id="b" class="com.vincent.liteflow.bean.BCmp"/>-->
+<!--        <node id="c" class="com.vincent.liteflow.bean.CCmp"/>-->
+<!--    </nodes>-->
+    <chain name="chain1">
+        THEN(a, b, c);
+    </chain>
+</flow>
